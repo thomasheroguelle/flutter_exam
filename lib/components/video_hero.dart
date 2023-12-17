@@ -18,7 +18,7 @@ class _VideoHeroState extends State<VideoHero> {
   }
 
   void _initializeVideoController() {
-    _controller = VideoPlayerController.asset('assets/video/v1.mp4')
+    _controller = VideoPlayerController.asset('web/assets/video/v1.mp4')
       ..initialize().then((_) {
         setState(() {
           _controller.setLooping(true);

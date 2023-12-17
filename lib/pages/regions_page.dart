@@ -10,7 +10,12 @@ class RegionPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(title),
+        title: Text(
+          title,
+          style: const TextStyle(
+            color: Colors.white, 
+          ),
+        ),
       ),
       body: Container(),
     );
